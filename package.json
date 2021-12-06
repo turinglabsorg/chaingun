@@ -1,0 +1,33 @@
+{
+    "name": "evmos-transaction-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "bot:send": "node src/send.js",
+        "bot:interact": "node src/interact.js",
+        "generate:wallet": "node src/gen_wallet.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ownlabs/evmos-transaction-bot.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ownlabs/evmos-transaction-bot/issues"
+    },
+    "homepage": "https://github.com/ownlabs/evmos-transaction-bot#readme",
+    "dependencies": {
+        "@truffle/hdwallet-provider": "latest",
+        "big-number": "^2.0.0",
+        "bip39": "^3.0.4",
+        "dotenv": "^10.0.0",
+        "ethereumjs-wallet": "^1.0.2",
+        "minimist": "^1.2.5",
+        "node-forge": "^0.10.0",
+        "web3": "^1.6.1"
+    }
+}

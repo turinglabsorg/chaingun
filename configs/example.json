@@ -1,0 +1,21 @@
+{
+    "mnemonic": "A_MNEMONIC_WITH_ENOUGH_FUNDS",
+    "provider": "PROVIDER_WSS_OR_HTTPS",
+    "contract_address": "CONTRACT_ADDRESS",
+    "method": "CONTRACT_METHOD",
+    "input": "hash",
+    "value": "0.0001",
+    "times": 150,
+    "parallelized": 20,
+    "abi": [{
+        "inputs": [{
+            "internalType": "string",
+            "name": "_hash",
+            "type": "string"
+        }],
+        "name": "notarize",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }]
+}
